@@ -1,3 +1,5 @@
-opc1=int(input("1=papel"))
-opc2=int(input("2=piedra"))
-opc3=int(input("3=tijera"))
+opc=int(input("1=papel, 2=piedra, 3=tijera"))
+user1= input("Ingresa el nombre del primer jugador: ")
+user2= input("Ingresa el nombre del segundo jugador: ")
+
+
