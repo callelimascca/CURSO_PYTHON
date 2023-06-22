@@ -32,7 +32,7 @@ while True:
         print("El jugador 2 gana: papel tapa a piedra")
 
     elif play2==3 and play1==2:
-        print("El jugador 2 gana: tijera gana a papel")
+        print("El jugador 2 gana: tijera corta a papel")
 
     elif play1 == play2:
         print("""
