@@ -2,7 +2,6 @@
 ## segundo le ponemos un nombre en nuestra  funcion
 ## establecemos los parametros que resivira nuestra funcion
 ##( funcion sin parametros)→b→
-import mensajes
 def saludo():
     
     mensaje="""    
