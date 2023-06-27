@@ -4,8 +4,7 @@ for i in range(5):
     datos = input("Ingrese los datos: ")
     lista.append(datos)
 print(f"""
-      **********************
-      LA LISTA COMPLETA ES 
-      **********************
+      ***********************************************************************
+      LA LISTA COMPLETA ES : {lista}
+      ***********************************************************************
       """)
-print(lista)

@@ -1,0 +1,22 @@
+## primero hacemos uso de la palabra recervada def
+## segundo le ponemos un nombre en nuestra  funcion
+## establecemos los parametros que resivira nuestra funcion
+##( funcion sin parametros)→b→
+import mensajes
+def saludo():
+    
+    mensaje="""    
+    ====================================================================
+    hola este es el mensaje de bienvenida....
+    cargando....
+    ====================================================================
+          
+    """
+    return mensaje
+def suma(numeroUno,numeroDos):
+    operacion=numeroUno+numeroDos
+    return operacion
+primerDato=int(input('Ingrese el primer numero: '))
+segundoDato=int(input('Ingrese el segundo numero: '))
+
+print (suma(primerDato,segundoDato))
