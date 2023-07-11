@@ -16,7 +16,10 @@ for texto in range(0,len(lista)):
     if lista[texto] =="disco":
         palabra=lista[texto]
         indice=texto
-print(f"""EN EL INDICE {indice} SE ENCUENTRA EL ELEMTO {palabra}
+if indice==0 & palabra=="":
+    print(mensajes.error ("te haz equivocado el elememto no existe"))
+else:
+    print(f"""EN EL INDICE {indice} SE ENCUENTRA EL ELEMTO {palabra}
       """)
     
 
