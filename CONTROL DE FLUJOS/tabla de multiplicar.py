@@ -12,3 +12,12 @@ factorial = 1
 for numero in range(1, num + 1):
         factorial = factorial * numero
 print("EL FACTORIAL DE", num, "ES", factorial)
+
+### TAREA MOSTRAR LA SUCESION FIBOCCI DE LOS 10 PRIMEROS NUMEROS
+
+lista = ["Claire", "Leon", "Tyrant"]
+
+for indice, nombre in enumerate(lista):
+    print("En " + str(indice) + " tenemos a " + nombre)
+    # O con f strings
+    print(f"En {indice} tenemos a {nombre}")

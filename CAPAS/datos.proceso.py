@@ -1,2 +1,0 @@
-import datos.entrada
-if 
