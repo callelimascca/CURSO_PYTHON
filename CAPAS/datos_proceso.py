@@ -1,0 +1,6 @@
+movimientos=('\n1.piedra\n2.papel\n3.tijeras\n')
+m1=(', piedra chanca a tijeras')
+m2=(', papel tapa a piedra')
+m3=(', tijeras cortan papel')
+m4=(', vuelvan a escojer su movimiento')
+m5=('Movimiento no valido')
