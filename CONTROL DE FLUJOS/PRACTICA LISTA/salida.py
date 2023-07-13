@@ -1,4 +1,6 @@
 import proceso
 print(f"""
-  EL ELEMENTO SE ENCUENTRA EN EL INDICE, {proceso.indice} y la palabra es: {proceso.palabra}
+=========================================================
+  EL ELEMENTO SE ENCUENTRA EN EL INDICE, {proceso.indice},LA PALABRA ES: {proceso.palabra}
+=========================================================
 """)
