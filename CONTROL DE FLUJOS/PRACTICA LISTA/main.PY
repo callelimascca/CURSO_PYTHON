@@ -1,4 +1,3 @@
-import mensajes
 lista=[]
 indice=0
 palabra=" "
@@ -10,6 +9,7 @@ for texto in range(0,len(lista)):
         palabra=lista[texto]
         indice=texto
 if indice==0 and palabra=="":
-    print(mensajes.error ("te haz equivocado el elememto no existe"))
-else:
-    print(mensajes.correcto(palabra,indice))
+    print(f"""
+ El disco se encuentra en el indice, {indice}, la apalabra es:  {palabra}
+ 
+""")
