@@ -8,20 +8,22 @@ codigo = int(input("INGRESE EL CODIGO DE LA CATEGORIA DE UNA PELICULA: "))
 dias = int(input("INGRESE EL NUMERO DE DIAS DE ATRASO EN LA DEVOLUCION: "))
 codigo in range(1,4)
 
-if(codigo > 4):
+if codigo > 4:
     print("""ERROR...
+          EL CODIGO INGRESADO ES INVALIDO...
           INGRESA UN CODIGO VALIDO :)
           """)
 else:
-    if(codigo==1):
+    if codigo==1:
         retraso = (8.90 + (dias * 1.80))
         print("EL TOTAL A PAGAR ES: S/. ",retraso," SOLES")
-    elif(codigo==2):
+    elif codigo==2:
         retraso = (10.77 + (dias * 2.69))
         print("EL TOTAL A PAGAR ES: S/. ",retraso," SOLES")
-    elif(codigo==3):
+    elif codigo==3:
         retraso = (12.57 + (dias * 3.59))
         print("EL TOTAL A PAGAR ES: S/. ",retraso," SOLES")
+        
     else:
         retraso = (14.36 + (dias * 5.39))
         print("EL TOTAL A PAGAR ES: S/. ",retraso," SOLES")
