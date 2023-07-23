@@ -30,6 +30,7 @@ comprando= 0
 
 while comprando == 0:
     codigo = int(input("INGRESE EL CODIGO DEL ARTICULO EN COMPRA: "))
+    print("EL PRECIO ES: S/.", precios[codigo-1])
     cantidad =int(input("INGRESE LA CANTIDAD DE ARTICULOS EN COMPRA: "))
     cuenta.append((precios[codigo-1])*cantidad)
     comprando=int(input("PARA AGREAGAR OTRO ARTICULO 0 PARA SALIR 1: "))
