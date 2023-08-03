@@ -34,23 +34,18 @@ def numeroMayor(arrayNumeros):
     return mayor
 print (numeroMayor(lista))
 
-def quicksort (arreglo,izquierdo,derecha):
-    if izquierdo < derecha:
-        indiceInicio= lista(arreglo, izquierdo, derecha)
-        quicksort(arreglo,izquierdo,derecha)
-        quicksort(arreglo,indiceInicio + 1,derecha)
+def burbuja (arreglo):
+    longitud =len(arreglo)
+    for i in range(longitud):
+        for indice_actual in range(longitud - 1):
+            indice_ultimo = indice_actual + 1
+            if arreglo[indice_actual] > arreglo[indice_ultimo]:
+                arreglo[indice_ultimo], arreglo[indice_actual] = arreglo[indice_actual], arreglo[indice_ultimo]
 
-
-#def busqueda_binaria(lista):
-#    izquierdo=0 ## indice izquierdo de la lista
-#    derecho=len(lista) - 1 # indice derecho de la lista
-#    while izquierdo <= derecho:
-#        puntoMedio=(derecho + izquierdo) // 2 ## punto medio
-#        if lista[puntoMedio] == lista:
-#            return True 
-#        elif lista[puntoMedio] > lista:
-#            izquierdo = puntoMedio + 1
-#            return False
-#print(busqueda_binaria([lista]))        
-
+mi_arreglo = [0,3,4,1,6,5,2,8,7,9,10]
+print("Original: ")
+print(mi_arreglo)
+burbuja(mi_arreglo)
+print("Ordenado: ")
+print(mi_arreglo)
 
